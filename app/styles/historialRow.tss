@@ -1,0 +1,22 @@
+
+".container" : {
+  
+}
+
+".titulos" :{
+	color : '#333333',
+	font : {
+			fontSize : 13,
+			fontWeight : 'bold'
+	}
+	
+}
+
+".valores" : {
+	color : '#333333',
+	font : {
+			fontSize : 13,
+			fontWeight : 'bold'
+	}
+	
+}

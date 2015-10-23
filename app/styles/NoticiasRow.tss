@@ -1,0 +1,13 @@
+".titulo":{
+	font : { 
+		fontSize : "12sp",
+		fontWeight : 'bold'
+	}
+},
+".fechaStyle":{
+	font : { 
+		fontSize : "10sp",
+		fontWeight : 'bold'
+	}
+	
+}

@@ -1,0 +1,101 @@
+"#winRecuperar[platform=android]":{
+	softKeyboardOnFocus: Ti.UI.Android.SOFT_KEYBOARD_HIDE_ON_FOCUS,
+	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_ADJUST_PAN
+}
+"#opacity":{
+	backgroundColor:"#000",
+	opacity:0.5
+},
+"#scrollRecupera":{
+	top: "10%",
+	width: Ti.UI.FILL,
+	height: "90%",
+	backgroundColor: "transparent"
+	
+}
+"#recuperaInfo":{
+	backgroundColor:"transparent",
+	top: 0
+}
+".tituloButton":{
+	color:"#fff",
+	textAlign:"Ti.UI.TEXT_ALIGNMENT_CENTER",
+	font:{
+		fontSize:"14sp",
+		fontWeight:"bold"
+	}
+}
+"#btnEnviar[platform=android]":{
+	backgroundColor:"#f96400",
+	height: '50dp'
+	//width: Ti.UI.FILL,
+	//bottom:0
+}
+"#btnEnviar[platform=ios]":{
+	backgroundColor:"#f96400",
+	//bottom:20,
+	height: '40dp'
+	//width: Ti.UI.FILL,
+	//bottom:0
+}
+
+
+"#lbInstruccion":{
+	color:"#000",
+	font : { 
+		fontSize : "19sp",
+		fontWeight : 'bold'
+	},
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	text:"La contraseña te será enviada a la dirección que especifiques"
+},   
+
+"#tfCorreo":{
+	hintText:"Correo electrónico", 
+	color:"#000000",
+	backgroundColor:"#fff",
+	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+	font:{
+		fontSize:"14sp"
+	} 
+},
+
+// "#btnEnviar":{
+	// title:"Enviar", 
+	// color:"black", 
+	// bottom:0, 
+	// width:Titanium.UI.FILL
+// },
+"#construccionView":{
+	backgroundImage:"/construccion.jpg", 
+	visible:false
+}   
+//toolbar ios
+"#cerrarButton":{
+	top: 5,
+	left:5,
+	height:34,
+	width:43
+}
+"#toolbarIos":{
+	top:0, 
+	borderTop:false, 
+	borderBottom:true,
+	barColor:"#eeeeee"
+}
+"#titleIos":{	
+	backgroundImage:"/images/nav-configuracion.png",
+	height:30,
+	width:85
+}
+//toolbar android
+"#toolbarAndroid":{
+	top:0, 
+	height:"10%",
+	backgroundColor:"#eeeeee"
+}
+"#titleAndroid":{
+	backgroundImage:"/images/nav-configuracion.png",
+	width:"30%",
+	height:"65%"
+}

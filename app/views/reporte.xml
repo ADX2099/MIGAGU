@@ -1,0 +1,37 @@
+<Alloy>
+	<Window id="reporteWin" modal="true" backgroundImage="/images/back.png">
+		<ScrollView id="scrollViewReporte">
+			<WebView id="webView" platform="ios" />
+				<Picker id="pickerReporte" platform="android"/>
+				
+				<TextField class="avanzadoText" id="textAreaReporte"/>
+
+			<View id="imagenView" height="Ti.Platform.displayCaps.platformHeight * 0.2">
+				<Label id="imgTitulo">TOMA UNA IMÁGEN</Label>
+				<ImageView id="imagenReporte1"/>
+				<ImageView id="imagenReporte2"/>
+				<!-- <View id="imagenReporte2" visible="false"/> -->				
+			</View>
+			<TextField class="avanzadoText" id="referenciaText"/>
+			<TextField class="avanzadoText" id="calleText"/>
+			<TextField class="avanzadoText" id="entreCalleText"/>
+			<View id ="btnEnviar" >
+					<Label text="ENVIAR REPORTE" class="tituloButton"/>
+			</View>
+			<View id="texImgReporte" backgroundImage="/images/grafico-reporte.png"  width="Ti.Platform.displayCaps.platformWidth * 0.9" height="Ti.Platform.displayCaps.platformWidth * 0.4" />
+			
+			
+		</ScrollView>
+		<Toolbar id="toolbarIos" platform="ios" >
+            <Items>
+				<Button id="cerrar" backgroundImage="/images/back_button.png"/>
+				<FlexSpace/>
+				<Button id="titleIos" visible="true"/>
+				<FlexSpace/>
+			</Items>   
+        </Toolbar>
+        <View id="toolbarAndroid" platform="android" >
+        	<View id="titleAndroid"/>
+        </View>
+	</Window>
+</Alloy>

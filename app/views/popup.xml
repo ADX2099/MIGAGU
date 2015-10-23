@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="popupWin" >
+		<View id="fondo"/>
+		<View id="opacidad">
+    		<ImageView id="img" height="11%" width="19%" top="3%"/>
+    		<TextArea id="consulta" top="16%" />
+    		
+			<View id="aceptar" bottom="0" width="Ti.UI.FILL"/>
+		</View>	
+	
+	</View>
+</Alloy>
+

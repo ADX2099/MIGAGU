@@ -1,0 +1,23 @@
+"#reporteMenu":{
+	separatorColor:"transparent",
+	backgroundImage:"/images/back.png",
+	top:Alloy.Globals.topMenu
+}
+"#reporte":{
+	title:"Reporte", 
+	backgroundColor:"#f96400",
+	font : { 
+		fontSize : "20sp",
+		fontWeight : 'bold'
+	}
+
+},
+"#tickets":{
+	title:"Tickets", 
+	color:"white",
+	font : { 
+		fontSize : "20sp",
+		fontWeight : 'bold'
+	}
+}
+

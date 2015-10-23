@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="popupMap" backgroundColor="blue">
+		<WebView url="" id="mapWebView">
+			<View id="aceptarticket"  backgroundImage="/images/btn-cerrar-mapa.png" top="10%" right="5%" width="10%" height="7%" />
+			<View id="getDescripcion"  backgroundImage="/images/btn-texto.png"  top="20%" right="5%" width="10%" height="7%"/>
+		</WebView>
+		<!-- <View id="aceptar" bottom="0" width="Ti.UI.FILL"/> -->
+		<View id="popupWin"  visible="false">
+			<View id="fondo"/>
+			<View id="opacidad">
+				<TextArea id="consulta"/>
+				<View id="aceptar" bottom="0" width="Ti.UI.FILL"/>
+			</View>
+		</View>
+	</Window>
+</Alloy>

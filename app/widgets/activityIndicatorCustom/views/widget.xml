@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="actIndWin" backgroundColor="transparent">
+		<View id="baseActIndView">
+				<ActivityIndicator id="activityIndicator"/>	
+		</View>>
+	</View>
+</Alloy>

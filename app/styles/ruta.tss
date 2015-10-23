@@ -1,0 +1,115 @@
+"#rutaWin":{
+	backgroundImage:"/images/back.png",
+	navBarHidden: "true"
+	//backgroundColor:"#999"
+},
+
+
+".rutaWebView":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	top:"3%"
+
+}
+
+".textArea[platform=ios]":{
+	color:"#000000",
+	height: '40dp',
+	width: '270dp', 
+	backgroundColor:"#fff",
+	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+	font:{
+		fontSize:"14sp"
+	}, 
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES
+}
+".subTitulo":{
+	top:"1%",
+	left:"2%",
+	color:"black"
+	
+}
+".fieldUbic":{
+	width:"90%",
+	top:"71%",
+	height:"5%"
+}
+".fieldStyle":{
+	color:"#336699",
+	width:"90%", 
+	height:"15%", 
+	borderColor:"black", 
+	borderStyle:" INPUT_BORDERSTYLE_BEZEL"
+}
+
+".buttonApoyo[platform=ios]":{
+	backgroundColor:"#f96400",
+	height: '40dp',
+	width: '270dp'
+},
+
+".transportes_element":{
+	height:"75%",
+	width:"9%",
+	top:"15%",
+	
+	
+}
+".ApoyoView":{
+	backgroundColor:"white"
+	
+}
+".miniArea":{
+	width:"45%",
+	height:"9%",
+	borderWidth:"2", 
+	borderColor:"#999999",
+	borderRadius:"5",
+	color:"#888", 
+	textAlign:"left",
+	left:"21%"
+	
+},
+
+"#pickerReporte":{
+	width: '290dp',
+	height: "8%"
+},
+"#webView":{
+	left:"8%", 
+	width: "110%",
+	height:"110%"
+	
+}
+
+".tituloButton":{
+	color:"#fff",
+	textAlign:"Ti.UI.TEXT_ALIGNMENT_CENTER",
+	font:{
+
+		fontSize:"14sp",
+
+		fontWeight:"bold"
+	}
+}
+//toolbar ios
+"#Cerrar":{
+	top: 5,
+	left:5,
+	height:34,
+	width:43
+}
+"#toolbarIos":{
+	top:"1%", 
+	borderTop:false, 
+	borderBottom:true,
+	barColor:"#eeeeee"
+}
+"#titleIos":{	
+	backgroundImage:"/images/nav-avial.png",
+	height:37,
+	width:120
+}
+
+
+

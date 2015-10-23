@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="container" navBarHidden="true" id="mainWin" backgroundColor="#eeeeee"  >		
+		<View id="menuInf"	backgroundColor="#eeeeee">
+		  	<WebView id="webview"  class="webview" /> 
+		  	  <WebView id="webview"  width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="#eeeeee"/> 
+		  	 <View id="Vista">
+					<Require src="swipeMenu"/>
+			</View>   
+			<Require src="menuInferior"/>
+		</View>
+		<Toolbar id="toolbarIos" platform="ios" >
+            <Items>
+				<Button id="menuIos" onClick="swipe" />
+				<FlexSpace/>
+				<Button id="titleIos"/>
+				<FlexSpace/>
+				<Button id="menuReporte" onClick="swipeLeft" />
+			</Items>   
+        </Toolbar>   
+      </Window>
+</Alloy>

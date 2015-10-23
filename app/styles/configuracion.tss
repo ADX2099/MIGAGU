@@ -1,0 +1,237 @@
+
+"#windowConf":{
+	navBarHidden: true
+}
+
+
+"#windowConf[platform=android]":{
+	softKeyboardOnFocus: Ti.UI.Android.SOFT_KEYBOARD_HIDE_ON_FOCUS,
+	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_ADJUST_PAN
+}
+
+
+
+"#toolbarIos":{
+	top: "2%",
+	borderTop: false,
+	borderBottom: true,
+	barColor: "#eeeeee"
+}
+
+"#titleIos":{
+	backgroundImage: "/images/nav-configuracion.png",
+	height: 37,
+	width: 125
+}
+//640x200
+"#scrollableViewBanners":{
+	showPagingControl: true,
+	width: Ti.UI.FILL,
+	height:Ti.UI.FILL
+}
+
+".opc":{
+	height: Alloy.Globals.height,
+	width: Ti.UI.FILL,
+	backgroundColor:"transparent"
+}
+
+".opcTab":{
+	height: "10%",
+	width: Ti.UI.FILL,
+	top:0
+
+}
+
+"#infoViewText[platform=android]":{
+	width: "310dp",
+	height: "155dp"
+}
+"#infoViewText[platform=ios]":{
+	width: 280,
+	height: 143
+}
+
+"#logos[platform=android]":{
+	width: "200dp",
+	height: "67dp"
+}
+"#logos[platform=ios]":{
+	width: 180,
+	height: 61
+}
+
+"#terminos[platform=android]":{
+	width: "310dp",
+	height: "45dp"
+}
+
+"#terminos[platform=ios]":{
+	width: 290,
+	height: 35
+}
+
+
+
+"#prueba[platform=ios]":{
+	width: 290,
+	height: 35
+}
+
+
+".logoLogin[platform=ios]":{
+	width: 100,
+	height: 100
+}
+
+
+
+
+
+"#usuario[platform=ios]":{
+	color: "#000000",
+	height: '40dp',
+	width: '250dp',
+	hintText: "Usuario",
+	backgroundColor: "#fff",
+	//borderRadius:10,
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+	font:{
+		fontSize: "14sp"
+	},
+	keyboardType: Ti.UI.KEYBOARD_EMAIL
+}
+
+"#twitter[platform=ios]":{
+	color: "#000000",
+	height: '40dp',
+	width: '250dp',
+	hintText: "@Twitter",
+	backgroundColor: "#fff",
+	//borderRadius:10,
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+	font:{
+		fontSize: "14sp"
+	},
+	keyboardType: Ti.UI.KEYBOARD_EMAIL
+}
+"#password[platform=ios]":{
+	color: "#000000",
+	height: '40dp',
+	width: '250dp',
+	hintText: "Password",
+	backgroundColor: "#fff",
+	passwordMask: true,
+	//borderRadius:10
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+	font:{
+		fontSize: "14sp"
+	}
+}
+
+
+
+"#recuerdaView[platform=ios]":{
+	height: '40dp',
+	width: '250dp',
+	backgroundImage: "/images/back-botones.png"
+}
+"#recuerda":{
+	//color:"#FACC2E",
+	color: "#4d4c4d",
+	font: {
+		fontSize: "14sp",
+		fontWeight: 'bold'
+	}
+}
+
+"#closeConfig":{
+	top: 5,
+	left: 5,
+	height: 34,
+	width: 43
+}
+".fontTab":{
+	font: {
+		fontSize: "20sp"
+	},
+	color: "#f9b200"
+}
+"#tableTicket":{
+	width: Ti.UI.FILL,
+	height: "35%",
+	top: "10%",
+	//separatorColor: "transparent",
+	backgroundColor: 'transparent'
+}
+"#lblTickets":{
+	top: "20%",
+	font: {
+		fontSize: "30sp"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	width: "80%",
+	height: Ti.UI.SIZE
+}
+
+
+"#btnEntrar[platform=ios]":{
+	height: '40dp',
+	width: '250dp',
+	backgroundColor: "#f96400"
+}
+".tituloButton":{
+	color: "#fff",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font:{
+		fontSize: "14sp",
+		fontWeight: "bold"
+	}
+}
+
+
+
+"#imagenLogin[platform=ios]":{
+	top: "3%",
+	width: 110,
+	height: 60
+}
+
+
+
+"#imagenLogin2[platform=ios]":{
+	width: "200dp",
+	height: "110dp"
+}
+//toolbar android
+"#toolbarAndroid":{
+	top: 0,
+	height: "10%",
+	backgroundColor: "#eeeeee"
+}
+"#titleAndroid":{
+	backgroundImage: "/images/nav-configuracion.png",
+	width: "30%",
+	height: "65%"
+}
+
+
+"#activityIndicatorTicket[platform=ios]":{
+	top: "30%",
+	color: "#f9b200",
+	font: {
+		fontFamily: 'Helvetica Neue',
+		fontSize: "30sp",
+		fontWeight: 'bold'
+	},
+	style: Titanium.UI.iPhone.ActivityIndicatorStyle.DARK,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+"#twitterView":{
+	top: "65%",
+	height: "10%",
+	width: "60%",
+	backgroundImage:"/images/loginTwitt.png"
+}
+

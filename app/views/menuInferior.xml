@@ -1,0 +1,11 @@
+<Alloy>
+	<View id="containerMenu" >
+		<View id = "cuerpo">
+			<Button id="btnNoticias"/>
+			<Button id="btnReporte"/>
+			<Button id="btnUbicame"/>
+			<Button id="btnRuta"/>
+		</View>
+		<View id="btnDespliega" />
+	</View>
+</Alloy>

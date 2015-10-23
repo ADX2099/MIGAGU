@@ -1,0 +1,12 @@
+<Alloy>
+	<TableView id="reporteMenu" platform="ios"  onClick="opciones">
+		<TableViewRow id="reporte"/>
+		<!-- <TableViewRow id="tickets"/> -->
+		
+	</TableView>
+	
+	<TableView id="reporteMenu" platform="android" minRowHeight= "10" onClick="opciones">
+		<TableViewRow id="reporte" height = "Titanium.Platform.displayCaps.platformHeight * 0.075"/>
+		<!-- <TableViewRow id="tickets" height = "Titanium.Platform.displayCaps.platformHeight * 0.075"/> -->
+	</TableView>
+</Alloy>

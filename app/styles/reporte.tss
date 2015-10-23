@@ -1,0 +1,208 @@
+"#reporteWin":{
+	title:'072Vial',
+	barColor:"#E3A400",
+	backgroundImage:'/back.png',
+	navBarHidden:"true"
+}
+
+"#reporteWin[platform=android]":{
+	softKeyboardOnFocus:Ti.UI.Android.SOFT_KEYBOARD_HIDE_ON_FOCUS,
+	windowSoftInputMode:Ti.UI.Android.SOFT_INPUT_ADJUST_PAN	
+}
+"#scrollViewReporte[platform=ios]":{
+	top:42,
+	height: Ti.UI.FILL,
+	width:Ti.UI.FILL,
+	disableBounce: "true"
+}
+"#scrollViewReporte[platform=android]":{
+	top:"10%",
+	height:"90%",
+	width:Ti.UI.FILL,
+	disableBounce: "true"
+}
+
+"#webView":{
+	disableBounce : true,
+	width: 290,
+	height:44,
+	backgroundColor: "transparent"
+}
+"#pickerReporte":{
+	height: '50dp',
+	width: '290dp' 
+}
+
+"#textAreaReporte[platform=android]":{
+	height: '50dp',
+	width: '290dp', 
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES,
+	hintText: "Descripción"
+}
+"#textAreaReporte[platform=ios]":{
+	hintText: "Descripción",
+	color:"#000000",
+	height: '40dp',
+	width: '270dp', 
+	backgroundColor:"#fff",
+	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+	font:{
+		fontSize:"14sp"
+	}, 
+
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES
+
+
+}
+
+"#imagenView[platform=ios]":{
+	width: '270dp',
+	backgroundImage:"/images/back-botones.png"
+}
+"#imgTitulo[platform=android]":{
+	width:"25%",
+	color:"#4d4c4d",
+	font:{
+		fontSize:"15sp",
+		fontWeight:"bold"
+	},
+	left:"5%"
+}
+
+"#imgTitulo[platform=ios]":{
+	width:"20%",
+	color:"#4d4c4d",
+	font:{
+		fontSize:"11sp",
+		fontWeight:"bold"
+	},
+	left:"5%"
+}
+
+
+"#imagenReporte1[platform=ios]":{
+	image:"/reporte/imagen.png",
+	//image:"/reporte/imagen.png",
+	height: "39%",
+	width:"28%",
+	left: "30%"
+}
+"#imagenReporte2[platform=ios]":{
+	image:"/reporte/imagen.png",
+	//image:"/reporte/imagen.png",
+	height: "39%",
+	width:"28%",
+	left: "65%"
+}
+".avanzadoText[platform=android]":{
+	color:"#000000",
+	height: '50dp',
+	width: '290dp',
+	backgroundColor:"#fff",
+	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+	font:{
+		fontSize:"14sp"
+	}, 
+
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES
+
+}
+".avanzadoText[platform=ios]":{
+	color:"#000000",
+	height: '40dp',
+	width: '270dp', 
+	backgroundColor:"#fff",
+	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
+	font:{
+		fontSize:"14sp"
+	}, 
+
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES
+}
+"#referenciaText":{
+	hintText:"Referencia",
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES
+}
+"#calleText":{
+	hintText:"Calle",
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES
+}
+"#entreCalleText":{
+	hintText:"Entre Calle",
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES
+
+}
+"#distanciaSwitch":{
+	top:"45%",
+	left:"6%",
+	value:"false"
+}
+"#distanciaText":{
+	visible: "false",
+	top:"45%",
+	hintText:"Distancia recorrida",
+	right:"6%",
+	width:"60%",
+	height:"45%",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	keyboardType:Ti.UI.KEYBOARD_NUMBER_PAD
+}
+//Boton enviar
+"#btnEnviar[platform=android]":{
+	backgroundColor:"#f96400",
+	height: '50dp',
+	width: '290dp'
+}
+"#btnEnviar[platform=ios]":{
+	backgroundColor:"#f96400",
+	//bottom:20,
+	height: '40dp',
+	width: '270dp'
+}
+".tituloButton":{
+	color:"#fff",
+	textAlign:"Ti.UI.TEXT_ALIGNMENT_CENTER",
+	font:{
+		fontSize:"14sp",
+		fontWeight:"bold"
+	}
+}
+
+//toolbar ios
+"#cerrar":{
+	top: 5,
+	left:5,
+	height:34,
+	width:43
+}
+"#toolbarIos":{
+	top:"1%", 
+	borderTop:false, 
+	borderBottom:true,
+	barColor:"#eeeeee"
+}
+"#titleIos":{	
+	backgroundImage:"/images/nav-reportes.png",
+	height:35,
+	width:155
+}
+//toolbar android
+"#toolbarAndroid":{
+	top:0, 
+	height:"10%",
+	backgroundColor:"#eeeeee"
+}
+"#titleAndroid":{
+	backgroundImage:"/images/nav-reportes.png",
+	width:"55%",
+	height:"65%"
+}
+// "#texImgReporte[platform=android]":{
+	// width: '290dp'
+// }
+// "#texImgReporte[platform=ios]":{
+	// width:270,
+	// height:120,
+	// bottom:20
+// }

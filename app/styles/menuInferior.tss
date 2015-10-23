@@ -1,0 +1,42 @@
+".container": {
+	backgroundColor: "white"
+}
+
+"#cuerpo":{
+	height:Ti.UI.FILL,
+	width:Ti.UI.FILL ,
+	backgroundImage:"/images/base_menu.png"
+}
+"#btnDespliega":{
+	height:"30%",
+	backgroundColor: "transparent",
+	top: 0
+}
+
+"#btnNoticias[platform=ios]":{
+	backgroundImage:"/images/btn_noticias.png",
+	left: 20,
+	height:38,
+	width:43
+}
+"#btnReporte[platform=ios]":{
+	backgroundImage:"/images/btn_reportes.png",
+	right:20,
+	height:46,
+	width:38,
+}
+"#btnRuta[platform=ios]":{
+	backgroundImage:"/images/btn-avial.png",
+	height:46,
+	width:55,
+	right:95,
+	bottom:"32%"
+	
+}
+"#btnUbicame[platform=ios]":{
+	backgroundImage:"/images/btn_ubicame.png",
+	left:100,
+	height:38,
+	width:43,
+	bottom:"36%"
+}

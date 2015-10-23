@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="popupWin" class="ruta"  title="Apoyo Vial" backgroundColor="white" >
+          	<ScrollableView id="scrollableView" width="Titanium.UI.FILL" height="Titanium.UI.FILL" top="0%" scrollingEnabled= "true" backgroundColor="black">
+            					
+        	</ScrollableView>
+
+	</Window>
+</Alloy>
+

@@ -1,0 +1,71 @@
+//toolbar ios
+"#noticias[platform=ios]":{
+	top:42
+}
+"#noticias[platform=android]":{
+	top:"10%"
+}
+"#Cerrar":{
+	top: 5,
+	left:5,
+	height:34,
+	width:43
+}
+"#toolbarIos":{
+	top:"1%", 
+	borderTop:false, 
+	borderBottom:true,
+	barColor:"#eeeeee"
+}
+"#titleIos":{	
+	backgroundImage:"/images/nav-noticas.png",
+	height:37,
+	width:130
+}
+//toolbar android
+"#toolbarAndroid":{
+	top:0, 
+	height:"10%",
+	backgroundColor:"#eeeeee"
+}
+"#titleAndroid":{
+	backgroundImage:"/images/nav-noticas.png",
+	width:"40%",
+	height:"65%"
+}
+//ActivityIndicatorNoticias
+"#actIndView":{
+	width:Ti.UI.FILL,
+	height: Ti.UI.FIll,
+	backgroundColor:"black", 
+	opacity:"0.4"
+}
+"#activityIndicator[platform=android]":{
+		color: "#f9b200",
+		font: {
+			fontFamily: 'Helvetica Neue',
+			fontSize: "20sp",
+			fontWeight: 'bold'
+		},
+		style: Ti.UI.ActivityIndicatorStyle.PLAIN,
+		height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE
+}
+"#activityIndicator[platform=ios]":{
+		color: "#f9b200",
+		font: {
+			fontFamily: 'Helvetica Neue',
+			fontSize: "20sp",
+			fontWeight: 'bold'
+		},
+		style: Ti.UI.iPhone.ActivityIndicatorStyle.PLAIN,
+		height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE
+	}
+"#viewActivity":{
+	backgroundColor:"#585858",
+	borderColor:"#eeeeee",
+	borderWidth:5,
+	height:"30%",
+	width:"80%"
+}

@@ -1,0 +1,15 @@
+<Alloy>
+	<TableViewRow id="rowFav"  height="Titanium.Platform.displayCaps.platformHeight * 0.10" filterAttribute="filter" backgroundColor="transparent" visible="false">
+		<Label  id="ticketNum" left="2%" top="4%" text="Ruta:" class="titulos"/>
+		<Label  id="origen_val" left="18%"  top="3%" text="{origen}" class="valores" />
+		<Label  left="2%"  top="36%" text="Destino:" class="titulos" />
+		<Label  id="motivo_val" left="20%"   top="36%" text="{destino}" class="valores"/>
+		<ImageView id="eliminar" image="/images/Cross.png"  
+			height="Titanium.Platform.displayCaps.platformHeight * 0.040" 
+			width="Titanium.Platform.displayCaps.platformHeight * 0.040" 
+			right="1%"/>
+		<Label  id="ticket_val" left="0"  bottom="0" text="{numeroCase}" visible="false" />
+			
+		
+	</TableViewRow>
+</Alloy>

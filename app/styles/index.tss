@@ -1,0 +1,46 @@
+".container": {
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.FILL
+}
+"#mainWin":{
+	orientationModes: [Ti.UI.PORTRAIT],
+}
+"#toolbarIos":{
+	top:"2%", 
+	borderTop:false,
+	borderBottom:true,
+	barColor:"#eeeeee"
+	
+}
+
+"#menuIos":{
+	backgroundImage:"/images/btn_menu_transporte.png",
+	height:34,
+	width:43
+}
+"#titleIos":{	
+	
+	height:38,
+	width:115
+}
+"#menuReporte":{
+	backgroundImage:"/images/btn_conf.png",
+	height:30,
+	width:39
+}
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+"#webview[platform=ios]":{
+	right:0,
+	top:"3%",
+	anchorPoint: {x:1, x:1}
+}
+"#Vista":{ 
+	backgroundImage:"#cccccc",
+	left: "-50%",
+	width: "50%",
+	top:0
+}

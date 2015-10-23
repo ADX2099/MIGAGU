@@ -1,0 +1,26 @@
+<Alloy>
+	<Window id="winRecuperar" modal="true" backgroundImage="/images/back.png" navBarHidden="true">
+		<!-- <View id="opacity"/> -->
+		<ScrollView id="scrollRecupera">
+			<View id="recuperaInfo"  height="Ti.Platform.displayCaps.platformHeight*0.5" width="Ti.Platform.displayCaps.platformWidth*0.9">
+				<Label id="lbInstruccion" top="Ti.Platform.displayCaps.platformHeight*0.04"/>
+				<TextField id="tfCorreo" top="Ti.Platform.displayCaps.platformHeight*0.21" height="Ti.Platform.displayCaps.platformHeight*0.08" width="Ti.Platform.displayCaps.platformWidth*0.8"/>
+				<View id ="btnEnviar" width="Ti.Platform.displayCaps.platformWidth*0.8" top="Ti.Platform.displayCaps.platformHeight*0.34">
+					<Label text="RECUPERAR CONTRASEÑA" class="tituloButton"/>
+				</View>
+			</View>
+			<!-- <View id="construccionView" height="Ti.Platform.displayCaps.platformHeight*0.5" width="Ti.Platform.displayCaps.platformWidth*0.9"/> -->
+		</ScrollView>
+		<Toolbar id="toolbarIos" platform="ios" >
+			<Items>
+				<Button id="cerrarButton" backgroundImage="/images/back_button.png"/>
+				<FlexSpace/>
+				<Button id="titleIos"/>
+				<FlexSpace/>
+			</Items>
+		</Toolbar>
+		<View id="toolbarAndroid" platform="android" >
+			<View id="titleAndroid"/>
+		</View>
+	</Window>
+</Alloy>

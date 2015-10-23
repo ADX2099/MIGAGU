@@ -1,0 +1,30 @@
+"Label": {
+	color: "white",
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+
+
+"#activityIndicator":{
+	color: "#fff",
+	font: {
+		fontFamily: 'Helvetica Neue',
+		fontSize: "20sp",
+		fontWeight: 'bold'
+	},
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+
+
+"#baseActIndView":{
+	height: "100%",
+	width: "100%",
+	backgroundColor:"#000",
+	opacity:"0.6"	
+}

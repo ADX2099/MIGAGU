@@ -1,0 +1,118 @@
+<Alloy>
+	<Collection src="tickets"/> 
+	<Window id="windowConf" backgroundColor="#eeeeee" modal="true" navbarHidden="true">
+		<ScrollableView id="scrollableViewBanners" >
+			<View id="view1">
+				<ImageView image="http://simgweb.072cdmx.gob.mx/apoyovial/banners/072_movil.jpg" width="Ti.UI.FILL" height="Ti.UI.FILL"/>
+			</View>
+			<View id="view2">
+				<ImageView image="http://simgweb.072cdmx.gob.mx/apoyovial/banners/agu_02.jpg" width="Ti.UI.FILL" height="Ti.UI.FILL" />
+			</View>
+			<View id="view3">
+				<ImageView image="http://simgweb.072cdmx.gob.mx/apoyovial/banners/072.jpg" width="Ti.UI.FILL" height="Ti.UI.FILL" />
+			</View>
+			<View id="view4">
+				<ImageView image="http://simgweb.072cdmx.gob.mx/apoyovial/banners/face.jpg" width="Ti.UI.FILL" height="Ti.UI.FILL" />
+			</View>
+			<View id="view5">
+				<ImageView image="http://simgweb.072cdmx.gob.mx/apoyovial/banners/obras_02.jpg" width="Ti.UI.FILL" height="Ti.UI.FILL" />
+			</View>
+			<View id="view6">
+				<ImageView image="http://simgweb.072cdmx.gob.mx/apoyovial/banners/twitter.jpg" width="Ti.UI.FILL" height="Ti.UI.FILL" />
+			</View>
+			
+	</ScrollableView> 
+		
+		<View class="opc" id="opc0">
+			<View class="opcTab" id="opcTab0" backgroundImage="/images/tab1.png">
+				<Label class="fontTab" id="titleTab1">Acerca de AGUMóvil</Label>
+			</View>
+			<View id="acercaDeBase" width="100%" height="100%" top="10%" backgroundColor="#eeeeee">
+
+				<View id="infoViewText" backgroundImage="/images/img_acercade.png"/>
+				
+				<View id="terminos" backgroundImage="/images/btn_terminosycondiciones.png" />
+				<View id="prueba" backgroundImage="/images/btn_tutorial.png" />
+
+			</View>
+		</View>
+		<View class="opc" id="opc1" backgroundColor="transparent">
+			<View class="opcTab" id="opcTab1" backgroundImage="/images/tab2.png">
+				<Label class="fontTab" id="titleTab1">Mi cuenta</Label>
+			</View>
+			<View id="baseCuenta" width="100%" height="90%" top="10%" backgroundColor="#eeeeee">
+				<Require src="formView"/>
+			</View>
+		</View>
+		<View class="opc" id="opc2" backgroundColor="transparent">
+			<View class="opcTab" id="opcTab2" backgroundImage="/images/tab3.png">
+				<Label class="fontTab" id="titleTab2">Ingresar</Label>
+			</View>
+			<View class="login" id="viewLogin"  width="100%" height="100%" top="10%" backgroundColor="#eeeeee">
+				<ScrollView scrollType="vertical">
+					<ImageView id="logoDF" class="logoLogin" image="/images/logo-gobdf.png" visible="false"/>
+					<ImageView id="logoAGU" class="logoLogin" image="/images/logo-agu.png" visible="false"/>
+					<ImageView id="imagenLogin2" top="3%" image= "/images/grafico-estaslog.png" />
+					<TextField id="usuario"/>
+					<TextField id="password"/>
+					<TextField id="twitter"/>
+					<View id="btnEntrar">
+						<Label text="ENTRAR" class="tituloButton" id="sesionLabel"  />
+					</View>
+					<View id="recuerdaView">
+						<Label id="recuerda" text="Recordar contraseña" />
+					</View>
+					
+				</ScrollView>
+			</View>
+		</View>
+		<View class="opc" id="opc3" backgroundColor="transparent">
+			<View class="opcTab" id="opcTab3" backgroundImage="/images/tab4.png">
+				<Label class="fontTab" id="titleTab3">Mis Reportes</Label>
+			</View>
+			<View id="baseOpc3" width="100%" height="90%" top="10%" backgroundColor="#eeeeee">
+				<TableView id="tableTicket" dataCollection="tickets" visible="false" height="90%" top="0">
+					<Require src="ticketRow"/>
+				</TableView>
+				<ActivityIndicator id="activityIndicatorTicket"/>
+			</View>
+		</View>
+		<View class="opc" id="opc4" backgroundColor="transparent">
+			<View class="opcTab" id="opcTab4" backgroundImage="/images/tab5.png">
+				<Label class="fontTab" id="titleTab4">Mis Favoritos</Label>
+			</View>
+			<View id="baseOpc4" width="100%" height="90%" top="10%" backgroundColor="#eeeeee">
+				<TableView id="tableFavoritos" dataCollection="tickets" visible="false" height="90%" top="0">
+					<Require src="favoritoRow"/>
+				</TableView>
+				<ActivityIndicator id="activityIndicatorTicket"/>
+				
+			</View>
+		</View>
+		
+		<View class="opc" id="opc5" backgroundColor="transparent">
+			<View class="opcTab" id="opcTab5" backgroundImage="/images/tab6.png">
+				<Label class="fontTab" id="titleTab4">Historial</Label>
+			</View>	
+		<View id="baseOpc5" width="100%" height="90%" top="10%" backgroundColor="#eeeeee">
+				<TableView id="tableHistorial" dataCollection="tickets" visible="false" height="90%" top="0">
+					<Require src="historialRow"/>
+				</TableView>
+				<ActivityIndicator id="activityIndicatorTicket"/>
+				<ImageView id="imagenLogin" image="/images/grafico-estaslog.png"/> 
+				
+		</View>
+		</View>
+		<Toolbar id="toolbarIos" platform="ios" >
+			<Items>
+				<Button id="closeConfig" backgroundImage="/images/back_button.png"/>
+				<FlexSpace/>
+				<Button id="titleIos"/>
+				<FlexSpace/>
+			</Items>
+		</Toolbar>
+		<View id="toolbarAndroid" platform="android" >
+			<View id="titleAndroid"/>
+		</View> 
+</Window> 
+</Alloy>

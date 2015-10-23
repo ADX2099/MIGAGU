@@ -1,0 +1,35 @@
+<Alloy>
+	 <Collection src="noticias"/> 
+	<Window id="noticiasWin" modal="true" navBarHidden="true" backgroundImage="/images/back.png">
+		<TableView id='noticias' dataCollection="noticias" height="auto" backgroundImage="/images/back.png" visible="false">
+				<Require src="NoticiasRow"/>
+		</TableView>
+		
+		<Toolbar id="toolbarIos" platform="ios" >
+            <Items>
+				<Button id="Cerrar" backgroundImage="/images/back_button.png"/>
+				<FlexSpace/>
+				<Button id="titleIos"/>
+				<FlexSpace/>
+
+				<Button id="refreshButton" backgroundImage="/images/btn_refresh.png" height="34" width="43" onClick="refresh"/>
+
+			</Items>   
+        </Toolbar>
+        <View id="toolbarAndroid" platform="android" >
+        	
+        	<View id="titleAndroid"/>
+        	
+        </View>
+        <ActivityIndicator id="activityIndicator" message=" Cargando"/> 
+        <!-- <View id="baseIndicator" width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="transparent">
+	        <View id="actIndView"/>
+				<View id="viewActivity">
+					<ActivityIndicator id="activityIndicator" message=" Cargando"/>
+				</View>
+		</View>  -->
+		<Menu id="menuVial" platform="android">
+        	 <MenuItem id="menuItemVial" title="Refresh Noticias" onClick="refresh" /> 
+        </Menu>
+	</Window>
+</Alloy>

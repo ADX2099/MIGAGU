@@ -1,0 +1,65 @@
+<Alloy>
+	<Window id="rutaWin"  modal="false" backgroundImage="/images/back.png">
+	
+		<!--PANTALLA DE IPHHONE -->
+		<ScrollableView id="scrollableView" width="Titanium.UI.FILL" height="100%" top="6%" scrollingEnabled= "false" backgroundImage="/images/back.png" platform="ios" >
+			<View id="view1" >
+				<TextField id="descripRuta" class="textArea" top="38%"  visible="true"  hintText="¿A donde quieres llegar?" />
+				<TextField id="origenRuta" class="textArea"  top="17%"  visible="true" hintText="Origen" />
+				<TextField id="destinoRuta" class="textArea" top="28%"  visible="true" hintText="Destino" />
+				<View id="rutaApoyo" class="buttonApoyo" top="49%"  visible="true" title="Solicitar Apoyo">
+					<Label text="SOLICITAR AYUDA" class="tituloButton"/>
+				</View>
+				<View id="verMapa"  top="52%" height="9%" width="80%" visible="false" backgroundImage="/btn_gris.png" onClick="getMapAgain">
+					<Label text="VER MAPA" class="tituloButtonIos"  color="#000" platform="ios" visible="false" />
+					<Label text="VER MAPA" class="tituloButton"  color="#000" platform="android" visible="false"/>
+				</View>
+			</View>
+		</ScrollableView>
+		
+	
+		
+		<!--PANTALLA DE IPHHONE -->
+		<ScrollView id="transportesScroll"backgroundColor="transparent" width="auto" height="12%" top="8%" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="false" disableBounce="true" platform="ios">
+			<View id="view" backgroundImage="/images/base.png" borderRadius="0" top="0" height="100%" width="575" >
+				
+				<!-- se Tienen que ordenar por el swipemenu -->
+				<View id="Transito" backgroundImage="/images/btn_transito1.png" class="transportes_element" left="1%"  onClick="pressed"/>
+				<View id="Metro" backgroundImage="/images/btn_metro1.png" class="transportes_element"  left="11%" onClick="pressed" />
+				<View id="MetroBus" backgroundImage="/images/btn_metrobus1.png"  class="transportes_element" left="21%" onClick="pressed" />
+				<View id="TroleBus" backgroundImage="/images/btn_trolebus1.png"  class="transportes_element" left="31%"   onClick="pressed" />
+				<View id="RTP" backgroundImage="/images/btn_rtp1.png"  class="transportes_element"  left="41%" onClick="pressed"/>
+				
+				<!-- 5 ALINEADOS A LA IZQUIERDA Y 5 A LA DERECHA -->
+				
+				<View id="Nochebus" backgroundImage="/images/btn_nochebus.png" class="transportes_element" left="51%" onClick="pressed"/>
+				<View id="Turibus" backgroundImage="/images/btn_turibus.png" class="transportes_element" left="61%" onClick="pressed"/>
+				<View id="EcoBici" backgroundImage="/images/btn_ecobici1.png" class="transportes_element" left="71%"  onClick="pressed"/>
+				<View id="Suburbano" backgroundImage="/images/btn_suburbano.png" class="transportes_element" left="81%" onClick="pressed"/>
+			
+			</View>
+		</ScrollView>
+		
+		<!-- ADX2099 29 mayo integramos los nuevos transportes -->
+		
+		               <!-- ELEMENTOS QUE APARECEN Y DESAPARECEN AL CARGAR EL MAPA -->
+		<WebView id="mapWebView" class="rutaWeb" class="rutaWebView"   visible="false" scalesPageToFit="false"/>
+		<Button id="maximizar" height="5%" width="10%"  right="2%" top="22%" title="+" visible="false"/>
+		<View id="cerrarMapa"  backgroundImage="/images/btn-cerrar-mapa.png" top="10%" right="5%" width="10%" height="7%" visible="false" />
+		<View id="getDescripcion"  backgroundImage="/images/btn-texto.png"  top="20%" right="5%" width="10%" height="7%" visible="false" />
+		<!-- <View id="imgRutas" backgroundImage="/images/img_rutas.png"  visible="true" bottom="2%" width="Ti.Platform.displayCaps.platformWidth * 0.9" height="Ti.Platform.displayCaps.platformWidth * 0.45"/> -->
+		<View id="imgRutas" backgroundImage="/images/img_rutas.png"  visible="true" bottom="1%" width="85%" height="30%"/>
+		<Toolbar id="toolbarIos" platform="ios" >
+			<Items>
+				<Button id="Cerrar" backgroundImage="/images/back_button.png"/>
+				<FlexSpace/>
+				<Button id="titleIos"/>
+				<FlexSpace/>
+			</Items>
+		</Toolbar>
+		<View id="toolbarAndroid" platform="android">
+			<View id="titleAndroid"/>
+		</View>
+		
+	</Window>
+</Alloy>

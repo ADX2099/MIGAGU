@@ -1,0 +1,22 @@
+<Alloy>
+	<TableViewRow id="historialRow"  height="Titanium.Platform.displayCaps.platformHeight * 0.10" filterAttribute="filter" backgroundColor="transparent" >
+		<Label  id="ticketNum" left="2%" top="4%" text="Reporte:" class="titulos"/>
+		<Label  id="ticket_val" left="21%"  top="3%" text="{numeroCase}" class="valores" />
+		<Label  left="2%"  top="36%" text="Motivo:" class="titulos" />
+		<Label  id="motivo_val" left="17%"   top="36%" text="{descripcion}" class="valores"/>
+		<Label  left="2%" text="{status}" bottom="5%" color="black" class="valores"/>
+		<ImageView id="eliminar" image="/images/Cross.png"  
+			height="Titanium.Platform.displayCaps.platformHeight * 0.040" 
+			width="Titanium.Platform.displayCaps.platformHeight * 0.040" 
+			right="1%"/>
+			
+		<ImageView id="historial" image="/images/history_on.png"
+			height="Titanium.Platform.displayCaps.platformHeight * 0.050" 
+			width="Titanium.Platform.displayCaps.platformHeight * 0.050" 
+			right="12%" visible="false" block="false"/ >
+			
+		
+	</TableViewRow>
+	
+	
+</Alloy>

@@ -1,0 +1,4 @@
+<Alloy>
+	<!-- <View id="formVista" width="100%" height="90%" top="10%" backgroundImage="/images/back.png"> -->
+	<View id="formVista" width="100%" top="0" backgroundColor="transparent"/>
+</Alloy>

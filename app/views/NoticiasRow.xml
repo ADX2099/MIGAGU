@@ -1,0 +1,10 @@
+<Alloy>
+	<TableViewRow id="row"  height="Titanium.Platform.displayCaps.platformHeight * 0.17" filterAttribute="filter" backgroundColor="transparent">
+		<ImageView image="{imagen}" platform="android" height="Titanium.Platform.displayCaps.platformHeight * 0.08" width="Titanium.Platform.displayCaps.platformHeight * 0.085" left="Titanium.Platform.displayCaps.platformHeight * 0.005"/>
+		<ImageView image="{imagen}" height="Titanium.Platform.displayCaps.platformHeight * 0.08" width="Titanium.Platform.displayCaps.platformHeight * 0.085" left="Titanium.Platform.displayCaps.platformHeight * 0.005"/>
+		<Label  left="17%" text="{titulo}" class="titulo" color="black"/>
+		<Label right="0" text="{fecha}" class="fechaStyle" bottom="0" color="black"/>
+		<Label id="cuerpo" text="{descripcion}" visible="false" color="black"/>
+	</TableViewRow>
+	
+</Alloy>

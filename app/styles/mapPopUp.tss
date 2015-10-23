@@ -1,0 +1,35 @@
+"#popupMap":{
+	modal:true,
+	//navbarHidden: true,
+	backgroundColor:"transparent", 
+	height:"100%", 
+	width:"100%"
+},
+"#fondo":{
+	backgroundColor:"black", 
+	opacity:0.4,
+	height:"100%", 
+	width:"100%"
+}
+
+"#opacidad":{
+	backgroundImage:"/images/base-detalle-noticias.jpg",  
+	height:"80%", 
+	width:"80%"
+},
+
+"#consulta":{
+	color: 'black', 
+	editable:"false", 
+	width : "80%", 
+	height : "80%", 
+	scrollable : "true", 
+	wordWrap : "true", 
+	backgroundColor:"transparent"
+},
+
+"#aceptar":{
+	right:0,
+	backgroundImage:"/images/btn-listo.jpg", 
+	height:"10%" 
+}
